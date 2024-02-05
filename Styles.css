@@ -1,0 +1,77 @@
+body
+{
+ background-color:rgb(240, 221, 224);
+background-image: url("bg.gif");
+overflow-x: hidden;
+
+}
+.div1{
+    width: 10%;
+    margin-left: 0%;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
+.high{
+    font-size: larger;
+    font-weight: bolder;
+}
+.div2{
+   background-color: rgb(55, 199, 218); 
+   width: 20%;  
+   
+   padding-left: 2%;
+   line-height: 30px;
+   
+}
+.div3{
+    /* text-align: center; */
+    width:100%;
+    line-height: 3;
+    font-size: 15px!important;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+.div4{
+    text-align: center;
+}
+a{
+    color: whitesmoke;
+    display: inline-block;
+    width: auto;
+    margin: 0!important;
+    padding: 5px 15px 5px 15px !important;
+    font-size: 15px!important;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.div5{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.div6
+{
+        background-image: url("paper.jpg"); 
+        
+}
+
+button{
+    Color: black;
+    background-color: red;
+    padding: 5px 15px 5px 15px !important;
+    font-size: 15px!important;
+}
+
+#hidden{
+display: none;
+
+}
+
+#slide{
+    width: 320px;
+    height: 400px;
+}

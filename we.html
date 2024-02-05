@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>valentines day card</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" type="image/png" href="Val.png">
+</head>
+
+<body onload="startSlideshow()">
+    <div class="div3">
+        <a href="home.html">Home</a>
+        <a href="we.html"> U&ME&#129392</a>
+        <a href="Val.html">Val&#128151</a>
+        <a href="about.html">About&#128525</a>
+    </div>
+    <script>
+    //     var arr = ['hug.gif', 'pic.JPG', 'hug.gif'];
+    //    function num(){
+    //     setInterval(()=>{
+    //         for(var i = 0; i <= arr.length - 1; i++){
+    //             slides(i);
+    //         }
+    //     },3000);
+    //    }
+    //     function slides(n) {
+    //             const images = document.getElementById("slide");
+    //             images.src = arr[n];
+    //             console.log(n);
+    //     }
+    
+    var arr = ['1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg'];
+        var currentIndex = 0;
+
+        function startSlideshow() {
+            setInterval(() => {
+                slides();
+            }, 2000);
+        }
+
+        function slides() {
+            const images = document.getElementById("slide");
+            images.src = arr[currentIndex];
+            // console.log(currentIndex);
+
+            // Increment index for the next iteration
+            currentIndex = (currentIndex + 1) % arr.length;
+        }
+    </script>
+    <div class="div5">
+        <p>LOVE YOU!!</p>
+        <img   id="slide" src="1.JPG" alt="ILU">
+    </div>
+</body>
+
+</html>
